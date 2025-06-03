@@ -1,4 +1,39 @@
-# Built application files
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sakon Gaisuwa</title>
+  <style>
+    body {
+      text-align: center;
+      padding: 50px;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }
+    #sako {
+      font-size: 24px;
+      color: darkgreen;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="sako">Barka da zuwa!</h1>
+  <button onclick="canjaSako()">Danna don sauya saƙo</button>
+
+  <script>
+    function canjaSako() {
+      document.getElementById("sako").innerText = "Ina fatan kana lafiya!";
+    }
+  </script>
+
+</body>
+</html># Built application files
 *.apk
 *.aar
 *.ap_
